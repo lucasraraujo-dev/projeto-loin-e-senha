@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Site com Sistema de Login e Registro</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form id="login-form">
+      <label for="username">Usuário</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Senha</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <hr>
+    <h1>Registro</h1>
+    <form id="register-form">
+      <label for="new-username">Novo usuário</label>
+      <input type="text" id="new-username" name="new-username" required>
+      <label for="new-password">Nova senha</label>
+      <input type="password" id="new-password" name="new-password" required>
+      <button type="submit">Registrar</button>
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
